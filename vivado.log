@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Dec 28 11:04:38 2024
+# Process ID: 20060
+# Current directory: C:/Users/12074/Desktop/Vivado_Project/project_end
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6444 C:\Users\12074\Desktop\Vivado_Project\project_end\project_end.xpr
+# Log file: C:/Users/12074/Desktop/Vivado_Project/project_end/vivado.log
+# Journal file: C:/Users/12074/Desktop/Vivado_Project/project_end\vivado.jou
+# Running On: StevenKlaus, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 42660 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/12074/Desktop/Vivado_Project/project_end/data_forword_addi.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1565.160 ; gain = 184.031
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/addi_data_forward/data_forword_addi.wcfg -to_files C:/Users/12074/Desktop/Vivado_Project/project_end/data_forword_addi.wcfg -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/12074/Desktop/Vivado_Project/project_end/data_forword_addi.wcfg' with file 'C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/addi_data_forward/data_forword_addi.wcfg'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'simtest_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'simtest_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simtest_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simtest_tb_behav xil_defaultlib.simtest_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simtest_tb_behav xil_defaultlib.simtest_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simtest_tb_behav -key {Behavioral:sim_1:Functional:simtest_tb} -tclbatch {simtest_tb.tcl} -view {C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/addi_data_forward/data_forword_addi.wcfg} -view {C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/lo_data_forward/lo_data_forward.wcfg} -view {C:/Users/12074/Desktop/Vivado_Project/project_end/simtest_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/addi_data_forward/data_forword_addi.wcfg
+open_wave_config C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/lo_data_forward/lo_data_forward.wcfg
+open_wave_config C:/Users/12074/Desktop/Vivado_Project/project_end/simtest_tb_behav.wcfg
+source simtest_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File C:/Users/1207411/Desktop/Vivado_Project/project_end/project_end.sim/inst_rom.data referenced on C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/id.v at line 78 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simtest_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1673.980 ; gain = 53.867
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Sat Dec 28 11:13:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.runs/synth_1/runme.log
+[Sat Dec 28 11:13:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run impl_1
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 11:31:13 2024...

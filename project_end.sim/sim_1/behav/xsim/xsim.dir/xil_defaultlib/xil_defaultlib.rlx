@@ -1,0 +1,25 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/ctrl.v,1704364544,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/div.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,ctrl,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,1704336502,verilog,,,,,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/div.v,1704386634,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/ex.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,div,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/ex.v,1704444274,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/ex_mem.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,ex,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/ex_mem.v,1704377370,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/hilo_reg.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,ex_mem,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/hilo_reg.v,1704364536,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/id.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,hilo_reg,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/id.v,1704443042,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/id_ex.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,id,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/id_ex.v,1704364470,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/if_id.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,id_ex,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/if_id.v,1704364424,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/inst_rom.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,if_id,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/inst_rom.v,1735375053,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/mem.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,inst_rom,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/mem.v,1704364518,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/mem_wb.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,mem,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/mem_wb.v,1735365360,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/openmips.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,mem_wb,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/openmips.v,1735430038,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/openmips_min_sopc.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,openmips,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/openmips_min_sopc.v,1735441101,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/pc_reg.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,openmips_min_sopc,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/openmips_min_sopc_tb.v,1704350654,verilog,,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,openmips_min_sopc_tb,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/pc_reg.v,1704365976,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/regfile.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,pc_reg,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/regfile.v,1735365484,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.srcs/sim_1/new/simtest_tb.v,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,regfile,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.srcs/sim_1/new/simtest_tb.v,1735352818,verilog,,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/defines.v,simtest_tb,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.srcs/sources_1/new/OURCPU.v,1735441118,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.srcs/sources_1/new/ben.v,,OURCPU,,,,,,,,
+C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.srcs/sources_1/new/ben.v,1735435121,verilog,,C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.sim/ctrl.v,,ban,,,,,,,,

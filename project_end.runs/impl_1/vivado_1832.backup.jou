@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Dec 29 11:53:39 2024
+# Process ID: 1832
+# Current directory: C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.runs/impl_1
+# Command line: vivado.exe -log OURCPU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source OURCPU.tcl -notrace
+# Log file: C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.runs/impl_1/OURCPU.vdi
+# Journal file: C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.runs/impl_1\vivado.jou
+# Running On        :StevenKlaus
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :42660 MB
+# Swap memory       :2684 MB
+# Total Virtual     :45345 MB
+# Available Virtual :19952 MB
+#-----------------------------------------------------------
+source OURCPU.tcl -notrace

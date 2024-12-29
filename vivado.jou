@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Dec 28 11:04:38 2024
+# Process ID: 20060
+# Current directory: C:/Users/12074/Desktop/Vivado_Project/project_end
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6444 C:\Users\12074\Desktop\Vivado_Project\project_end\project_end.xpr
+# Log file: C:/Users/12074/Desktop/Vivado_Project/project_end/vivado.log
+# Journal file: C:/Users/12074/Desktop/Vivado_Project/project_end\vivado.jou
+# Running On: StevenKlaus, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 42660 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/12074/Desktop/Vivado_Project/project_end/project_end.xpr
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/addi_data_forward/data_forword_addi.wcfg -to_files C:/Users/12074/Desktop/Vivado_Project/project_end/data_forword_addi.wcfg -filesets [get_filesets *]
+launch_simulation
+open_wave_config C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/addi_data_forward/data_forword_addi.wcfg
+open_wave_config C:/Users/12074/Desktop/Vivado_Project/project_end/sim_picture/lo_data_forward/lo_data_forward.wcfg
+open_wave_config C:/Users/12074/Desktop/Vivado_Project/project_end/simtest_tb_behav.wcfg
+source simtest_tb.tcl
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+close_sim
+reset_run impl_1
+reset_run synth_1

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1735450067">
+  <File Type="ROUTE-PWR" Name="OURCPU_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="OURCPU.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="OURCPU_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="OURCPU_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="OURCPU_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="OURCPU.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="OURCPU_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="OURCPU_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="OURCPU_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="OURCPU_opt.dcp"/>
+  <File Type="OPT-DRC" Name="OURCPU_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="OURCPU.hwdef"/>
+  <File Type="PWROPT-DCP" Name="OURCPU_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="OURCPU_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="OURCPU_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="OURCPU_placed.dcp"/>
+  <File Type="PLACE-IO" Name="OURCPU_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="OURCPU_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="OURCPU_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="OURCPU_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="OURCPU_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="OURCPU_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="OURCPU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="OURCPU.bin"/>
+  <File Type="PLACE-TIMING" Name="OURCPU_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="OURCPU_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="OURCPU_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="OURCPU_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="OURCPU.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="OURCPU_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="OURCPU_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="OURCPU_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="OURCPU.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="OURCPU_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="OURCPU_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="OURCPU_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="OURCPU_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="OURCPU_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="OURCPU_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="OURCPU_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="OURCPU_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="OURCPU_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="OURCPU_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="OURCPU_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="OURCPU_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="OURCPU_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="OURCPU_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="OURCPU_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="OURCPU_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="OURCPU_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="OURCPU_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="OURCPU_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="OURCPU_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="OURCPU_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="OURCPU_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="OURCPU_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="OURCPU_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="OURCPU_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="OURCPU_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="OURCPU_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="OURCPU.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="OURCPU_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="OURCPU_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="OURCPU.nky"/>
+  <File Type="BITSTR-BMM" Name="OURCPU_bd.bmm"/>
+  <File Type="PDI-FILE" Name="OURCPU.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="OURCPU_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="OURCPU_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="OURCPU.rcfi"/>
+  <File Type="CFI_FILE" Name="OURCPU.cfi"/>
+  <File Type="RNPI_FILE" Name="OURCPU.rnpi"/>
+  <File Type="NPI_FILE" Name="OURCPU.npi"/>
+  <File Type="RBD_FILE" Name="OURCPU.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="OURCPU.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="OURCPU.sysdef"/>
+  <File Type="BG-BGN" Name="OURCPU.bgn"/>
+  <File Type="BG-DRC" Name="OURCPU.drc"/>
+  <File Type="RDI-RDI" Name="OURCPU.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="OURCPU_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="OURCPU_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ben.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/defines.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/ex.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/ex_mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/hilo_reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/id.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/id_ex.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/if_id.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/inst_rom.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/mem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/mem_wb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/openmips.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/openmips_min_sopc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/pc_reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OURCPU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OURCPU"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/lianjie.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,94 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Dec 29 13:29:47 2024
+| Host         : StevenKlaus running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file OURCPU_control_sets_placed.rpt
+| Design       : OURCPU
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    44 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    11 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              13 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             201 |           64 |
+| Yes          | No                    | No                     |             224 |           87 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              30 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+--------------------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|      Clock Signal     |                      Enable Signal                     |              Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------+--------------------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|  ban0/div_clk_reg_n_0 |                                                        | ban0/an[7]_i_1_n_0                         |                1 |              1 |         1.00 |
+|  div_clk_BUFG         |                                                        |                                            |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG        |                                                        |                                            |                2 |              2 |         1.00 |
+|  ban0/div_clk_reg_n_0 |                                                        | ban0/disp_bit[1]                           |                1 |              4 |         4.00 |
+|  ban0/div_clk_reg_n_0 |                                                        |                                            |                3 |             10 |         3.33 |
+|  clk_IBUF_BUFG        |                                                        | ban0/divclk_cnt[0]_i_1_n_0                 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG        |                                                        | count[0]_i_1_n_0                           |                7 |             26 |         3.71 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/pc_reg0/pc[2]_i_2_n_0     | openmips_min_sopc0/openmips0/pc_reg0/clear |                8 |             30 |         3.75 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/E[0]              |                                            |               10 |             32 |         3.20 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/wb_wd_reg[2]_4[0] |                                            |               13 |             32 |         2.46 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/wb_wd_reg[1]_3[0] |                                            |               11 |             32 |         2.91 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/wb_wd_reg[1]_2[0] |                                            |               15 |             32 |         2.13 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/wb_wd_reg[2]_3[0] |                                            |                9 |             32 |         3.56 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/wb_wd_reg[2]_1[0] |                                            |               17 |             32 |         1.88 |
+|  div_clk_BUFG         | openmips_min_sopc0/openmips0/mem_wb0/wb_wd_reg[2]_2[0] |                                            |               12 |             32 |         2.67 |
+|  div_clk_BUFG         |                                                        | openmips_min_sopc0/openmips0/id_ex0/rst    |               51 |            154 |         3.02 |
++-----------------------+--------------------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+
+
