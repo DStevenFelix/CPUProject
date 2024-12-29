@@ -1,1 +1,1 @@
-##This is HFUT CPU
+This is HFUT CPU_test
